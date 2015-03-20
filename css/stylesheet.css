@@ -1,8 +1,11 @@
 body {
+	overflow: hidden;
 	font-family: arial,sans-serif;
-	font-size: small;
+	font-size: 13px;
 	background: #fff;
 	color: #222;
+	margin: 0;
+	padding: 10px;
 }
 
 header {
@@ -23,7 +26,12 @@ footer {
 li {
 	list-style-type: none;
 	display: inline-block;
-	padding: 1px 0 1px 5px;
+	padding-left: 27px;
+}
+
+.logo img {
+	height: 200px;
+  width: 500px;
 }
 
 .containter {
@@ -37,6 +45,7 @@ li {
 
 .l_footer, .r_footer {
 	display: inline-block;
+
 }
 
 .l_footer {
