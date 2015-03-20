@@ -48,12 +48,13 @@ li {
 .g-search {
 	display: block;
 	font-family: arial,sans-serif;
-	padding: 15px;
+	padding: 0;
+	margin: 15px;
 	background-color: #fff;
   border: 1px solid #d9d9d9;
   border-top-color: #c0c0c0;
   width: 539px;
-  height: 14px;
+  height: 27px;
   vertical-align: top;
 }
 
