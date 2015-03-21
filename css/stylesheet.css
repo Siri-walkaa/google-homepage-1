@@ -59,7 +59,15 @@ li {
 }
 
 input[text] {
+	display: block;
+	position: relative;
 	-webkit-appearance: none;
+	width: 100%;
+	height: 100%;
+}
+
+input[button] {
+	padding: 10px;
 }
 
 .buttons {
