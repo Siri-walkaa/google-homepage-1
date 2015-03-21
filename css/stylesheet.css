@@ -45,7 +45,7 @@ li {
 }
 
 .g-search {
-	display: block;
+	display: inline-block;
 	font-family: arial,sans-serif;
 	padding: 0;
 	margin: 10px;
@@ -64,12 +64,24 @@ input {
 }
 
 input[text] {
-	display: block-inline;
+	display: inline-block;
 	position: relative;
 	float: left;
 	width: 90%;
 	height: 90%;
 	border: none;
+}
+
+.mic img {
+	position: relative;
+	display: inline-block;
+	float: right;
+	width: 14px;
+	height: 19px;
+	padding: 4px;
+	margin: 0;
+	vertical-align: middle;
+    opacity: 0.6;
 }
 
 .buttons {
