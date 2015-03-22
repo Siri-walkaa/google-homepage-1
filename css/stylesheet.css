@@ -72,6 +72,11 @@ input[text] {
 	border: none;
 }
 
+.search:active {
+	outline: 0;
+
+}
+
 .mic img {
 	position: relative;
 	display: inline-block;
