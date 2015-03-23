@@ -84,7 +84,7 @@ input {
     appearance: none;
 }
 
-input[text] {
+.search {
 	display: inline-block;
 	position: relative;
 	float: left;
