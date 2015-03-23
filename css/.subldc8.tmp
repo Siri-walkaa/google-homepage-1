@@ -14,12 +14,7 @@ header {
 	color: #404040;
 	width: 100%;
 	margin-left: -40px;
-	padding: 0px;
-}
-
-header li {
-	margin-top: 1px;
-	margin-right: -12px;
+	padding: 9px;
 }
 
 footer {
@@ -32,15 +27,10 @@ footer {
 	border-top: 1px solid #e4e4e4;
 }
 
-footer li {
-	margin-right: 4px;
-}
-
 li {
 	list-style-type: none;
 	display: inline-block;
-	padding-left: 23px;
-	padding-top: 0;
+	padding-left: 27px;
 }
 
 .containter {
@@ -69,7 +59,7 @@ li {
 
 .apps-ico {
 	position: relative;
-	top: 6px;
+	top: 2px;
 	padding: 0;
 	margin: 0;
 }
@@ -149,7 +139,7 @@ input[text] {
 
 .l_footer {
 	float: left;
-	margin-left: -33px;
+	margin-left: -38px;
 }
 
 .r_footer {
