@@ -70,10 +70,13 @@ input[text] {
 	width: 90%;
 	height: 90%;
 	border: none;
+	margin: 2px;
+	padding: 5px;
 }
 
-.search:active {
-	outline: 0;
+.search:focus {
+	border: none;
+	outline: none;
 
 }
 
