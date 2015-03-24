@@ -43,6 +43,16 @@ li {
 	padding-top: 0;
 }
 
+span.tg-arrow {
+	position: relative;
+	border-top: 4px solid #404040;
+  border-left: 4px dashed transparent;
+  border-right: 4px dashed transparent;
+  display: inline-block;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
 .containter {
 	display: inline-block;
 }
