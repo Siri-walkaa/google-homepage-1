@@ -21,6 +21,7 @@ header {
 header li {
 	margin-top: 1px;
 	margin-right: -12px;
+	padding-right: 1px;
 }
 
 footer {
@@ -30,6 +31,7 @@ footer {
 	bottom: 0;
 	background: #f2f2f2;
 	color: #666;
+	line-height: 14px;
 	border-top: 1px solid #e4e4e4;
 }
 
@@ -40,7 +42,7 @@ footer li {
 li {
 	list-style-type: none;
 	display: inline-block;
-	padding-left: 25px;
+	padding-left: 23px;
 	padding-top: 0;
 }
 
