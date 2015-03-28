@@ -292,6 +292,10 @@ input {
 	margin-top: 6px;
 }
 
+.search-results {
+	width: 544px;
+}
+
 .content-menu {
 	display: block;
 	float: left;
@@ -353,7 +357,18 @@ input {
 
 .note {
 	position: relative;
-	display: block;
+	display: inline-block;
+	float: left;
+	line-height: 43px;
+	padding-left: 16px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 8px;
+}
+
+.rs-info {
+	position: relative;
+	display: inline-block;
 	float: left;
 }
 
