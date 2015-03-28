@@ -137,6 +137,8 @@ input {
   text-transform: none;
   text-indent: 0px;
   text-shadow: none;
+  font: 16px arial,sans-serif;
+  line-height: 1.2em !important;
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
   box-sizing: border-box; 
