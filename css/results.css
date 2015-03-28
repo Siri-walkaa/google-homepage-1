@@ -15,7 +15,7 @@ header {
 	color: #404040;
 	width: 100%;
 	height: 60px;
-	margin-bottom: 10px;
+	margin-bottom: 0;
 	padding: 0px;
 	background: #f2f2f2;
 	border-bottom: 1px solid #666;
@@ -31,7 +31,7 @@ footer {
 	color: #666;
 	line-height: 14px;
 	border-top: 1px solid #e4e4e4;
-	padding-left: 50px;
+	padding-left: 72px;
 }
 
 footer a {
@@ -178,6 +178,70 @@ input {
 	box-shadow: 0 1px 1px rgba(0,0,0,.1);
 }
 
+.button {
+	display: inline-block;
+	background-color: #f5f5f5;
+	background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+	background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+	background-image: -ms-linear-gradient(top,#f5f5f5,#f1f1f1);
+	background-image: -o-linear-gradient(top,#f5f5f5,#f1f1f1);
+	background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+	color: #444;
+	
+	border: 1px solid #dcdcdc;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	
+	cursor: default;
+}
+
+.button:hover {
+	background-color: #F8F8F8;
+	background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+	background-image: -moz-linear-gradient(top,#f8f8f8,#f1f1f1);
+	background-image: -ms-linear-gradient(top,#f8f8f8,#f1f1f1);
+	background-image: -o-linear-gradient(top,#f8f8f8,#f1f1f1);
+	background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+	
+	border: 1px solid #C6C6C6;
+	color: #333;
+	
+	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.1);
+	-moz-box-shadow: 0px 1px 1px rgba(0,0,0,.1);
+	box-shadow: 0px 1px 1px rgba(0,0,0,.1);
+}
+
+.button.filter {
+	width: 44px;
+	height: 29px;
+}
+
+.button.settings {
+	width: 72px;
+	height: 29px;
+}
+
+.button.filter.private {
+	margin-right: -4px;
+}
+
+.enabled, .enabled:hover {
+	background-color: #eee;
+	background-image: -webkit-linear-gradient(top,#eee,#e0e0e0);
+	background-image: -moz-linear-gradient(top,#eee,#e0e0e0);
+	background-image: -ms-linear-gradient(top,#eee,#e0e0e0);
+	background-image: -o-linear-gradient(top,#eee,#e0e0e0);
+	background-image: linear-gradient(top,#eee,#e0e0e0);
+	
+	border: 1px solid #ccc;
+	color: #222;
+	
+	-webkit-box-shadow: 0px 1px 2px rgba(0,0,0,.1);
+	-moz-box-shadow: 0px 1px 2px rgba(0,0,0,.1);
+	box-shadow: 0px 1px 2px rgba(0,0,0,.1);
+}
+
 .search-mg {
 	background: url('../img/apps-nav.png');
 	background-position: -63px -40px;
@@ -201,6 +265,98 @@ input {
   opacity: 0.6;
 }
 
+.top-menu {
+	position: relative;
+	display: block;
+	height: 59px;
+	background: #fff;
+  border-bottom: 1px solid #ebebeb;
+  padding: 0;
+  line-height: 54px;
+  -webkit-user-select: none;
+  outline-width: 0;
+  outline: none;
+}
+
+.left-menu {
+	position: relative;
+	margin-left: 120px;
+	height: 59px;
+	float: left;
+}
+
+.right-menu {
+	position: relative;
+	float: right;
+	margin-right: 30px;
+	margin-top: 6px;
+}
+
+.content-menu {
+	display: block;
+	float: left;
+	color: #777;
+	margin: 2px 8px 0;
+  padding: 0 8px;
+  white-space: nowrap;
+}
+
+.active {
+	border-bottom: 3px solid #dd4b39;
+  color: #dd4b39;
+  font-weight: bold;
+  margin: 2px 8px 0;
+  padding: 0 8px;
+}
+
+.priv {
+	display: inline-block;
+	background: url('../img/nav.png');
+	background-position: -15px 45px;
+	width: 14px;
+	height: 14px;
+	float: right;
+	margin-right: 8px;
+}
+
+.globe {
+	display: inline-block;
+	background: url('../img/nav.png');
+	background-position: -45px 45px;
+	width: 14px;
+	height: 14px;
+	float: right;
+	margin-right: 7px;
+}
+
+.setts {
+	display: inline-block;
+	background: url('../img/nav.png');
+	background-position: -42px 114px;
+	width: 17px;
+	height: 17px;
+	float: right;
+	margin-right: 21px;
+	opacity: 0.667;
+}
+
+.setts:hover {
+	opacity: 1;
+	cursor: default;
+}
+
+.search-results {
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.note {
+	position: relative;
+	display: block;
+	float: left;
+}
+
 .point {
 	color: #aaa;
 }
@@ -221,7 +377,8 @@ input {
 }
 
 .location-info {
-	margin-left: 24px;
+	margin-left: 23px;
+	
 }
 
 .location-info li {
@@ -233,8 +390,6 @@ input {
 	cursor: pointer;
 }
 
-
-
 span.tg-arrow {
 	position: relative;
 	border-top: 4px solid #404040;
@@ -243,4 +398,10 @@ span.tg-arrow {
   display: inline-block;
   margin-left: 6px;
   vertical-align: middle;
+}
+
+.left-menu .tg-arrow {
+	border-top: 4px solid #777;
+	margin-left: 0;
+	margin-top: -1px;
 }
