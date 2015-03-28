@@ -139,6 +139,8 @@ input {
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
   box-sizing: border-box; 
+  font: 16px arial,sans-serif;
+  line-height: 1.2em !important;
 }
 
 .search-btn {
