@@ -25,13 +25,12 @@ header {
   border-color: #e5e5e5;
 }
 
-body footer {
+footer {
 	position: absolute;
 	display: block;
 	width: 100%;
 	bottom: 0;
 	right: 0;
-	float: left;
 	background: #f2f2f2;
 	color: #666;
 	line-height: 14px;
@@ -113,7 +112,7 @@ td, th {
 }
 
 header .app-menu {
-	display: inline-block;
+	display: block;
 	float: right;
 	margin-right: 20px;
 	margin-top: -18px;
@@ -398,6 +397,17 @@ input {
 	font-weight: bold;
 }
 
+.rs-about {
+	color: #545454;
+	line-height: 1.4;
+  word-wrap: break-word;
+  margin: 1px 0 15px 0;
+}
+
+.date {
+	color: #808080;
+}
+
 .bG {
 	background: url('../img/nav.png') no-repeat;
 	background-position: -24px 0;
@@ -407,7 +417,7 @@ input {
 	float: left;
 	position: inline-block;
 	margin-top: -17px;
-	margin-left: -7px;
+	margin-left: -8px;
 
 }
 
@@ -451,8 +461,42 @@ input {
 	float: left;
 	width: 528px;
 	margin-left: 120px;
-	margin-right: 254px;
-	
+	margin-right: 254px;	
+}
+
+.rs-info h3 {
+	font-size: 18px;
+	color: #1a0dab;
+	white-space: nowrap;
+	font-weight: normal;
+	line-height: 1.2;
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+
+.rs-info a {
+	color: #1a0dab;
+	text-decoration: none;
+}
+
+.rs-info a:hover {
+	text-decoration: underline;
+}
+
+.rs-info em {
+	font-weight: bold;
+  font-style: normal;
+}
+
+.web-adir {
+	height: 17px;
+  line-height: 16px;
+}
+
+.www {
+	color: #006621;
+  font-style: normal;
+  font-size: 14px;
 }
 
 .results-main {
@@ -524,6 +568,7 @@ input {
 	 font-size: 13px;
 	 line-height: 20px;
 	 text-decoration: none;
+
 }
 
 .propositions {
