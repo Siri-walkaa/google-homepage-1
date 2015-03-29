@@ -1,3 +1,7 @@
+html {
+	position: relative;
+}
+
 body {
 	height: 100%;
 	display: block;
@@ -21,16 +25,17 @@ header {
   border-color: #e5e5e5;
 }
 
-footer {
+body footer {
 	position: absolute;
 	display: block;
 	width: 100%;
 	bottom: 0;
+	right: 0;
+	float: left;
 	background: #f2f2f2;
 	color: #666;
 	line-height: 14px;
 	border-top: 1px solid #e4e4e4;
-	padding-left: 0px;
 }
 
 footer a {
@@ -62,28 +67,18 @@ tbody {
   border-color: inherit;
 }
 
-tr {
-  display: inline-block;
-  vertical-align: inherit;
-  border-color: inherit;
-}
-
 td, th {
-	margin-top: 20px;
+	margin-top: 0;
 	position: relative;
   display: inline-block;
   vertical-align: inherit;
   padding: 0;
   text-align: center;
-  width: 17px;
+  width: 20px;
 }
 
 .footer-section {
 	padding-left: 70px;
-}
-
-.pages span {
-	border-collapse: collapse;
 }
 
 .home-logo {
@@ -423,7 +418,6 @@ input {
 	width: 20px;
 	height: 40px;
 	float: left;
-	margin-left: 
 	position: inline-block;
 }
 
@@ -475,10 +469,9 @@ input {
 	border-collapse: collapse;
   text-align: left;
   width: 528px;
-  margin: 30px auto 30px;
+  margin: -50px auto 70px;
   padding-top: 50px;
   padding-bottom: 10px;
-
 }
 
 .note {
