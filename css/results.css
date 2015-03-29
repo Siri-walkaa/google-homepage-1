@@ -57,23 +57,25 @@ table {
 }
 
 tbody {
-  display: table-row-group;
+  display: inline-block;
   vertical-align: middle;
   border-color: inherit;
 }
 
 tr {
-  display: table-row;
+  display: inline-block;
   vertical-align: inherit;
   border-color: inherit;
 }
 
 td, th {
-  display: table-cell;
+	margin-top: 20px;
+	position: relative;
+  display: inline-block;
   vertical-align: inherit;
   padding: 0;
   text-align: center;
-  width: 20px;
+  width: 17px;
 }
 
 .footer-section {
@@ -384,28 +386,51 @@ input {
 	cursor: default;
 }
 
+.pages a {
+	color: #1a0dab;
+	text-decoration: none;
+}
+
+.pages a:hover {
+	text-decoration: underline;
+}
+
+.actual {
+	font-weight: bold;
+}
+
+.next {
+	font-weight: bold;
+}
+
 .bG {
 	background: url('../img/nav.png') no-repeat;
 	background-position: -24px 0;
+	display: block;
 	width: 28px;
 	height: 40px;
 	float: left;
 	position: inline-block;
+	margin-top: -17px;
+	margin-left: -7px;
 
 }
 
 .fo {
 	background: url('../img/nav.png') no-repeat;
   background-position: -53px 0;
+  display: block;
 	width: 20px;
 	height: 40px;
 	float: left;
+	margin-left: 
 	position: inline-block;
 }
 
 .o {
 	background: url('../img/nav.png') no-repeat;
   background-position: -74px 0;
+  display: block;
 	width: 20px;
 	height: 40px;
 	float: left;
@@ -415,10 +440,15 @@ input {
 .gle {
 	background: url('../img/nav.png') no-repeat;
   background-position: -96px 0;
+  display: block;
 	width: 71px;
 	height: 40px;
 	float: left;
 	position: inline-block;
+}
+
+.next {
+	margin-left: 53px;
 }
 
 .search-results {
@@ -441,13 +471,15 @@ input {
 
 .rs-pages {
 	position: relative;
+	display: inline-block;
 	border-collapse: collapse;
   text-align: left;
   width: 528px;
   margin: 30px auto 30px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+
 }
-
-
 
 .note {
 	position: relative;
