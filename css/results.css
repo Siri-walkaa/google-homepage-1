@@ -52,6 +52,10 @@ li {
 	padding-top: 0;
 }
 
+a {
+	text-decoration: none;
+}
+
 table {
   display: table;
   border-spacing: 2px;
@@ -117,6 +121,14 @@ header .app-menu {
 	margin-right: 20px;
 	margin-top: -18px;
 
+}
+
+footer a {
+	color: #777;
+}
+
+footer a:hover {
+	color: #333;
 }
 
 .app-menu ul li.acc {
@@ -382,7 +394,6 @@ input {
 
 .pages a {
 	color: #1a0dab;
-	text-decoration: none;
 }
 
 .pages a:hover {
@@ -476,7 +487,6 @@ input {
 
 .rs-info a {
 	color: #1a0dab;
-	text-decoration: none;
 }
 
 .rs-info a:hover {
@@ -567,8 +577,6 @@ input {
 	 display: block;
 	 font-size: 13px;
 	 line-height: 20px;
-	 text-decoration: none;
-
 }
 
 .propositions {
