@@ -123,11 +123,11 @@ header .app-menu {
 
 }
 
-footer a {
+.link {
 	color: #777;
 }
 
-footer a:hover {
+.link:hover {
 	color: #333;
 }
 
