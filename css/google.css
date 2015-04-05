@@ -85,11 +85,21 @@ span.tg-arrow {
   padding: 20px;
 }
 
-.apps-ico {
-	position: relative;
-	top: 6px;
-	padding: 0;
+.apps {
+	display: inline-block;
+	background: url('../img/apps-nav.png');
+	background-position: 30px -52px;
+	width: 30px;
+	height: 30px;
+	float: right;
+	opacity: .55;
 	margin: 0;
+	padding: 0;
+}
+
+.apps:hover {
+	opacity: 1;
+	cursor: default;
 }
 
 .apps-ico:hover {
