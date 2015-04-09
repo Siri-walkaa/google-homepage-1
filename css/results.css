@@ -19,7 +19,7 @@ header {
 	width: 100%;
 	height: 60px;
 	margin-bottom: 0;
-	padding: 0px;
+	padding: 0;
 	background: #f2f2f2;
 	border-bottom: 1px solid #666;
   border-color: #e5e5e5;
@@ -74,7 +74,6 @@ td, th {
 	margin-top: 0;
 	position: relative;
   display: inline-block;
-  vertical-align: inherit;
   padding: 0;
   text-align: center;
   width: 20px;
@@ -89,12 +88,12 @@ td, th {
 	background-position: 0 -45px;
 	width: 95px;
 	height: 35px;
-	display: inline-block;
+	display: block;
 	float: left;
 }
 
 .apps {
-	display: inline-block;
+	display: block;
 	background: url('../img/apps-nav.png');
 	background-position: 30px -52px;
 	width: 30px;
@@ -132,7 +131,7 @@ header .app-menu {
 }
 
 .app-menu ul li.acc {
-	display: inline-block;
+	display: block;
 	height: 30px;
 	float: right;
 	padding: 10px 10px 0 0;
@@ -156,14 +155,12 @@ input {
   border-top-color: #c0c0c0;
   width: 559px;
   height: 28px;
-  vertical-align: top;
   white-space: nowrap;
 }
 
 .g-search input[text] {
   display: block;
   position: relative;
-	line-height: 0;
 	white-space: nowrap;
 	color: #222;
 	font-size: small;
@@ -173,22 +170,22 @@ input {
   width: 100%;
   height: 27px;
   z-index: 6;
-  left: 0px;
+  left: 0;
   background: url(data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D) transparent;
   letter-spacing: normal;
   word-spacing: normal;
   text-transform: none;
-  text-indent: 0px;
+  text-indent: 0;
   text-shadow: none;
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
   box-sizing: border-box; 
   font: 16px arial,sans-serif;
-  line-height: 1.2em !important;
+  line-height: 1.2em;
 }
 
 .search-btn {
-	display: inline-block;
+	display: block;
 	float: left;
 	width: 58px;
 	height: 30px;
@@ -200,7 +197,6 @@ input {
 	background-image: -ms-linear-gradient(top,#4d90fe,#4787ed);
 	background-image: -o-linear-gradient(top,#4d90fe,#4787ed);
 	background-image: linear-gradient(top,#4d90fe,#4787ed);
-
 	border: 1px solid #3079ED;
 	color: white;
 	border-radius: 0 2px 2px 0;
@@ -215,7 +211,6 @@ input {
 	background-image: -ms-linear-gradient(top,#4d90fe,#357ae8);
 	background-image: -o-linear-gradient(top,#4d90fe,#357ae8);
 	background-image: linear-gradient(top,#4d90fe,#357ae8);
-	
 	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.1);
 	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.1);
 	box-shadow: 0 1px 1px rgba(0,0,0,.1);
@@ -230,7 +225,6 @@ input {
 	background-image: -o-linear-gradient(top,#f5f5f5,#f1f1f1);
 	background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
 	color: #444;
-	
 	border: 1px solid #dcdcdc;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -246,13 +240,11 @@ input {
 	background-image: -ms-linear-gradient(top,#f8f8f8,#f1f1f1);
 	background-image: -o-linear-gradient(top,#f8f8f8,#f1f1f1);
 	background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
-	
 	border: 1px solid #C6C6C6;
 	color: #333;
-	
-	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.1);
-	-moz-box-shadow: 0px 1px 1px rgba(0,0,0,.1);
-	box-shadow: 0px 1px 1px rgba(0,0,0,.1);
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+	box-shadow: 0 1px 1px rgba(0,0,0,.1);
 }
 
 .content-menu .search-settings {
@@ -276,9 +268,9 @@ input {
 	background-image: -ms-linear-gradient(top,#f5f5f5,#f1f1f1);
 	background-image: -o-linear-gradient(top,#f5f5f5,#f1f1f1);
 	background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
-	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.1);
-	-moz-box-shadow: 0px 1px 1px rgba(0,0,0,.1);
-	box-shadow: 0px 1px 1px rgba(0,0,0,.1);
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+	box-shadow: 0 1px 1px rgba(0,0,0,.1);
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	color: #777;
@@ -308,19 +300,16 @@ input {
 	background-image: -ms-linear-gradient(top,#eee,#e0e0e0);
 	background-image: -o-linear-gradient(top,#eee,#e0e0e0);
 	background-image: linear-gradient(top,#eee,#e0e0e0);
-	
 	border: 1px solid #ccc;
 	color: #222;
-	
-	-webkit-box-shadow: 0px 1px 2px rgba(0,0,0,.1);
-	-moz-box-shadow: 0px 1px 2px rgba(0,0,0,.1);
-	box-shadow: 0px 1px 2px rgba(0,0,0,.1);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+	box-shadow: 0 1px 2px rgba(0,0,0,.1);
 }
 
 .search-mg {
 	background: url('../img/apps-nav.png');
 	background-position: -63px -40px;
-	float: auto;
 	display: inline-block;
 	width: 18px;
 	height: 18px;
@@ -338,7 +327,7 @@ input {
 	position: absolute;
 	right: 3px;
 	top: 1px;
-	display: inline-block;
+	display: block;
 	float: right;
 	width: 14px;
 	height: 19px;
@@ -357,6 +346,9 @@ input {
   padding: 0;
   line-height: 54px;
   -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   outline-width: 0;
   outline: none;
 }
@@ -380,7 +372,7 @@ input {
 }
 
 .content-menu {
-	display: inline-block;
+	display: block;
 	float: left;
 	color: #777;
 	margin: 2px 8px 0;
@@ -396,7 +388,7 @@ input {
 }
 
 .priv {
-	display: inline-block;
+	display: block;
 	background: url('../img/nav.png');
 	background-position: -15px 45px;
 	width: 14px;
@@ -406,7 +398,7 @@ input {
 }
 
 .globe {
-	display: inline-block;
+	display: block;
 	background: url('../img/nav.png');
 	background-position: -45px 45px;
 	width: 14px;
@@ -416,7 +408,7 @@ input {
 }
 
 .setts {
-	display: inline-block;
+	display: block;
 	background: url('../img/nav.png');
 	background-position: -42px 114px;
 	width: 17px;
@@ -465,7 +457,6 @@ input {
 	width: 28px;
 	height: 40px;
 	float: left;
-	position: inline-block;
 	margin-top: -17px;
 	margin-left: -8px;
 
@@ -478,7 +469,6 @@ input {
 	width: 20px;
 	height: 40px;
 	float: left;
-	position: inline-block;
 }
 
 .o {
@@ -488,7 +478,6 @@ input {
 	width: 20px;
 	height: 40px;
 	float: left;
-	position: inline-block;
 }
 
 .gle {
@@ -498,7 +487,6 @@ input {
 	width: 71px;
 	height: 40px;
 	float: left;
-	position: inline-block;
 }
 
 .next {
@@ -558,7 +546,7 @@ input {
 
 .rs-pages {
 	position: relative;
-	display: inline-block;
+	display: block;
 	border-collapse: collapse;
   text-align: left;
   width: 528px;
@@ -577,11 +565,13 @@ input {
 	padding: 0 8px 0 16px;
 	color: #808080;
   -webkit-transition: all 220ms ease-in-out;
+  -moz-transition: all 220ms ease-in-out;
+  -o-transition: all 220ms ease-in-out;
 }
 
 .rs-info {
 	position: relative;
-	display: inline-block;
+	display: block;
 	float: left;
 	margin: 0;
 	padding: 0 8px 0 16px;
@@ -604,8 +594,8 @@ input {
   line-height: 18px;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
   margin-bottom: 10px;
 }
 
@@ -619,7 +609,7 @@ input {
 }
 
 .propositions {
-	display: inline-block;
+	display: block;
   font-size: 13px;
   margin-top: -1px;
   padding-bottom: 20px;
