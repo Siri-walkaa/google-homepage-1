@@ -1,3 +1,9 @@
+/*
+======================================
+  Main settings
+======================================
+*/
+
 body {
 	height: 100%;
 	display: block;
@@ -8,6 +14,37 @@ body {
 	color: #222;
 	margin: 0;
 }
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 23px;
+	padding-top: 0;
+}
+
+.containter {
+	display: inline-block;
+}
+
+.container img {
+	height: 95px;
+  width: 269px;
+  margin-top: 8%;
+  margin-bottom: 2px;
+  padding: 20px;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/*
+======================================
+  Header 
+======================================
+*/
 
 header {
 	display: inline-block;
@@ -24,18 +61,18 @@ header li {
 	padding-right: 1px;
 }
 
-a {
-	color: #404040;
-	text-decoration: none;
+.head_menu {
+	display: block;
+	float: right;
+	padding: 0;
+	margin-top: -10px;
 }
 
-a:hover, a:active {
-	text-decoration: underline;
-}
-
-a:visited {
-	text-decoration: none;
-}
+/*
+======================================
+  Footer 
+======================================
+*/
 
 footer {
 	position: absolute;
@@ -56,33 +93,66 @@ footer li {
 	margin-right: 4px;
 }
 
-li {
-	list-style-type: none;
+.l_footer, .r_footer {
 	display: inline-block;
-	padding-left: 23px;
-	padding-top: 0;
+	padding-top: -2px;
+
 }
 
-.tg-arrow {
-	position: relative;
-	border-top: 4px solid #404040;
-  border-left: 4px dashed transparent;
-  border-right: 4px dashed transparent;
-  display: inline-block;
-  margin-left: 6px;
-  vertical-align: middle;
+.l_footer {
+	float: left;
+	margin-left: -33px;
 }
 
-.containter {
-	display: inline-block;
+.r_footer {
+	float: right;
+	margin-right: 20px;
 }
 
-.container img {
-	height: 95px;
-  width: 269px;
-  margin-top: 8%;
-  margin-bottom: 2px;
-  padding: 20px;
+/*
+======================================
+  Buttons
+======================================
+*/
+
+.buttons {
+	display: block;
+}
+
+.btn {
+	height: 29px;
+  line-height: 27px;
+	background-color: #f5f5f5;
+	cursor: default;
+  font-family: arial,sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  margin: 11px 6px;
+  min-width: 54px;
+  padding: 0 8px;
+  text-align: center;
+  border: 1px solid rgba(0,0,0,0.1);
+  color: #444;
+  border-radius: 2px;
+}
+
+/*
+======================================
+  Links
+======================================
+*/
+
+a {
+	color: #404040;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
+}
+
+a:visited {
+	text-decoration: none;
 }
 
 .apps {
@@ -108,11 +178,21 @@ li {
 	color: #000;
 }
 
-input {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+.tg-arrow {
+  position: relative;
+  border-top: 4px solid #404040;
+  border-left: 4px dashed transparent;
+  border-right: 4px dashed transparent;
+  display: inline-block;
+  margin-left: 6px;
+  vertical-align: middle;
 }
+
+/*
+======================================
+  Search
+======================================
+*/
 
 .g-search {
 	position: relative;
@@ -171,48 +251,4 @@ input {
 
 .v_search:hover {
 	cursor: pointer;
-}
-
-.buttons {
-	display: block;
-}
-
-.btn {
-	height: 29px;
-  line-height: 27px;
-	background-color: #f5f5f5;
-	cursor: default;
-  font-family: arial,sans-serif;
-  font-size: 11px;
-  font-weight: bold;
-  margin: 11px 6px;
-  min-width: 54px;
-  padding: 0 8px;
-  text-align: center;
-  border: 1px solid rgba(0,0,0,0.1);
-  color: #444;
-  border-radius: 2px;
-}
-
-.head_menu {
-	display: block;
-	float: right;
-	padding: 0;
-	margin-top: -10px;
-}
-
-.l_footer, .r_footer {
-	display: inline-block;
-	padding-top: -2px;
-
-}
-
-.l_footer {
-	float: left;
-	margin-left: -33px;
-}
-
-.r_footer {
-	float: right;
-	margin-right: 20px;
 }
